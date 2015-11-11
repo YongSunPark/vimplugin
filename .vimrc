@@ -19,3 +19,9 @@ nmap <C-H> <C-W>h
 nmap <C-J> <C-W>j
 nmap <C-K> <C-W>k
 nmap <C-L> <C-W>l
+
+execute pathogen#infect()
+
+syntax enable
+set background=dark
+colorscheme solarized
